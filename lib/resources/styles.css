@@ -205,10 +205,11 @@ header h1 .kind {
 
 dt {
   font-weight: normal;
+  margin: 2px 0;
 }
 
 dd {
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   color: #212121;
 }
 
@@ -233,6 +234,10 @@ dl.dl-horizontal dt {
 dt .name, dt a {
   font-size: 17px;
   font-weight: 500;
+}
+
+.type-annotation a, .signature a {
+  font-weight: inherit;
 }
 
 dl dt.callable .name {
@@ -429,6 +434,7 @@ nav .self-name {
   color: #727272;
   font-style: italic;
   font-size: 14px;
+  margin: -2px 0 2px;
 }
 
 section.multi-line-signature div.parameters {
